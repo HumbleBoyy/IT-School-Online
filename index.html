@@ -3,9 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>IT School</title>
-</head>
+</head>                      
 <body>
-    <h2>Hello</h2>
+    <nav class="navbar_menu">
+        <a href="#" class="brand_name">IT School</a>
+        <div class="navigation" id="navigation">
+           <a href="#" class="menu_link">Курсы</a>
+           <a href="#" class="menu_link">Школы</a>
+           <a href="#" class="menu_link">Отзывы о школах </a>
+           <a href="#" class="menu_link">Акции школ</a>
+           <a href="#" class="menu_link">Блог</a>
+        </div>
+
+        <div class="action_wrapper">
+           <button class="equalizer_btn"><img src="./assets/icons/group16.svg" alt="it_school"/></button>
+           <div class="search_input_wrapper">
+               <img src="./assets/icons/loupe.svg" alt="it school">
+              <input type="search" name="search" id="search" class="search_input" placeholder="Искать курсы">
+           </div>
+           <div class="menu_btn"/>
+        </div>
+    </nav>
+
+    <!-- Home Section start-->
+     <section class="home" id="home">
+       <div class="home_items_wrapper">
+          <div class="home_text_wrapper">
+             <h1 class="home_main_text">Агрегатор онлайн-курсов</h1>
+             <p class="home_secondary_text">Сравниваем онлайн-курсы по digital и IT. <br>
+                Мы — каталог-отзовик курсов. Выбирайте курсы по отзывам, <br> 
+                цене, продолжительности и другим критериям!
+            </p>
+          </div>
+          <img src="./assets/images/home.svg" alt="It School" class="home_image">
+       </div>
+     </section>
+    <!-- Home Section end -->
+
+    <!-- Advantages Section start -->
+       <section class="advantages">
+        <h2 class="advantages_main_title">Наши преимущества</h2>
+         <div class="advantages_items_wrapper">
+            <div class="box_items_wrapper">
+                <div class="image_title_wrapper">
+                    <img src="./assets/icons/videoplayer.svg" alt="it school" width="60px">
+                    <h2 class="title">Большой выбор <br> онлайн-курсов</h2>
+                </div>
+                <p class="advantages_paragraph"> 
+                    Мы аккумулируем большое количество
+                    онлайн-курсов по различным направлениям, 
+                    позволяя сравнивать их, и выбирать то, 
+                    что вам нравится
+               </p>
+            </div>
+         </div>
+       </section>
+    <!-- Advantages Section end -->
+    <script src="./app.js"></script>
 </body>
 </html>
